@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>GroupT-Visualization Project</title>
+
+
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+</head>
+<style type="text/css">
+	#main-content{
+		margin-top: 20px;
+	}
+
+</style>
+ <!--If it shows Error, it means that you need to use Web server. -->
+<script type="text/javascript">
+d3.json( "1.json", function(json_data) {
+	//console.log(json_data);
+	//---Do some operation with the paremter: json_data
+
+});
+
+// d3.select("body").select("div").select("div").select("#bigtitle")
+// 	.text("Happy New Year");
+// 如果不把 d 封装在匿名函数里，d 就没有值
+d3.select("#bigtitle")
+	.style("color","red");
+
+var dataset = [1,2,3,4,5];
+d3.select("body").selectAll("div")
+	.data(dataset)
+	.enter()
+	.append("div")
+	.attr("class","bar");
+</script>
+
+
+
+
+
+
+
+<body>
+	<div class="temp">
+
+	</div>
+</body>
+</html>
