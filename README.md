@@ -20,3 +20,7 @@ The converted format csv file.
 Here is the converted CSV file:
 ![CSV.format](https://raw.githubusercontent.com/HenrySHE/steam_game_visualization/master/Images/csvformat.png)
 
+## Here is some results(in Tableau):
+
+* Showing the price of top 100 games (according to the rank)
+![Sample Result](https://github.com/HenrySHE/steam_game_visualization/blob/master/Images/PriceWithRank.png)
