@@ -3,6 +3,9 @@
 ## Introduction
 This project aims to perform some interesting finding form the STEAM database. And the results will be performed as a webpage.
 
+## Tools that will used:
+1. Tableau: you can have a student licence by clicking this website:(https://www.tableau.com/zh-cn/academic/students)
+2. D3.js
 
 ## Files introduction:
 1. **convertJSON_to_CSV.py:**
@@ -15,5 +18,5 @@ The original file that gets form steamspy website（https://steamspy.com/api.php
 The converted format csv file.
 
 Here is the converted CSV file:
-![CSV.format](steam_game_visualization/Images/csvformat.png)
+![CSV.format](https://raw.githubusercontent.com/HenrySHE/steam_game_visualization/master/Images/csvformat.png)
 
