@@ -14,5 +14,6 @@ The original file that gets form steamspy website（https://steamspy.com/api.php
 3. **100games.csv:** 
 The converted format csv file.
 
-![CSV.format](/images/csvformat.png)
+Here is the converted CSV file:
+![CSV.format](steam_game_visualization/Images/csvformat.png)
 
