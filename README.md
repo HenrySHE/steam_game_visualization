@@ -18,13 +18,26 @@ The original file that gets form steamspy website（https://steamspy.com/api.php
 The converted format csv file.
 
 Here is the converted CSV file:
-![CSV.format](https://raw.githubusercontent.com/HenrySHE/steam_game_visualization/master/Images/csvformat.png)
+![CSV.format](./Images/csvformat.png)
 
 ## Here is some results(in Tableau):
 
 * Showing the price of top 100 games (according to the rank)
-![Sample Result](https://github.com/HenrySHE/steam_game_visualization/blob/master/Images/PriceWithRank.png)
+![Sample Result](./Images/PriceWithRank.png)
 
 
 * Player 2 weeks: how many players play games:
-![p2w](./Images/csvformat.png)
+Shows how many
+![p2w](./Images/Player2week.png)
+
+* Rank and Comment:
+  * Y is the game name(ordered by ranking)
+  * X is about the comment: (positive comment/ all comments)
+![Rank and Comment](./Images/RankandComment.png)
+
+* Owners of those games:
+![Owe Game](https://raw.githubusercontent.com/HenrySHE/steam_game_visualization/master/Images/Owe%20Game.png)
+
+* Price Rating Comment:
+![Price Rating Comment](./Images/PriceRatingComment.png)
+
