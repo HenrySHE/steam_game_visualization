@@ -24,3 +24,7 @@ Here is the converted CSV file:
 
 * Showing the price of top 100 games (according to the rank)
 ![Sample Result](https://github.com/HenrySHE/steam_game_visualization/blob/master/Images/PriceWithRank.png)
+
+
+* Player 2 weeks: how many players play games:
+![p2w](./Images/csvformat.png)
