@@ -2,7 +2,7 @@
 # Aims to format Json file
 import json
 import csv
-f = open('100g.json')
+f = open('rgame.json')
 data = json.load(f)
 # data = json.dumps(f)
 # print(data)
@@ -27,6 +27,7 @@ for i in keys:
                  data[tmp]["userscore"],
                  data[tmp]["owners"],
                  data[tmp]["owners_variance"],
+                 data[tmp]["players_forever"],
                  data[tmp]["players_forever_variance"],
                  data[tmp]["players_2weeks"],
                  data[tmp]["players_2weeks_variance"],
